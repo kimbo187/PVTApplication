@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.testflutter">
+    package="com.example.flutter_applicationdemo">
    <application
-        android:label="testflutter"
+        android:label="flutter_applicationdemo"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
@@ -20,6 +20,8 @@
               android:name="io.flutter.embedding.android.NormalTheme"
               android:resource="@style/NormalTheme"
               />
+            <meta-data android:name="com.google.android.geo.API_KEY"
+               android:value="AIzaSyAUmhd6Xxud8SwgDxJ4LlYlcntm01FGoSk"/>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
@@ -30,5 +32,6 @@
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+    
     </application>
 </manifest>
